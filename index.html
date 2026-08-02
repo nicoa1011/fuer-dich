@@ -124,6 +124,15 @@
             bottom: -40px;
             animation: fliegen linear forwards;
             pointer-events: none;
+            z-index: 1;
+        }
+        
+        #brief,
+        #start,
+        #laden,
+        #ende {
+            position: relative;
+            z-index: 10;
         }
         
         @keyframes fliegen {
